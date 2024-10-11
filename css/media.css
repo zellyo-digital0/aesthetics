@@ -1,0 +1,269 @@
+@media(max-width:1299px) {
+    .footer .row {
+        padding: 0rem !important;
+        padding-top: 60px !important;
+    }
+
+    /* about pg */
+    .kja {
+        padding: 50px;
+    }
+
+    .kj {
+        padding: 50px;
+    }
+}
+
+@media(max-width:1199px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3,
+    h5,
+    label {
+        font-size: 30px;
+    }
+
+
+    .about_content {
+        padding: 20px 0px;
+    }
+
+    .footer .row {
+        padding: 0rem !important;
+        padding-top: 60px !important;
+    }
+
+    /* about pg */
+    .meet {
+        background-size: 30%;
+    }
+
+    .meet-karolina p {
+        padding: 30px 0px 60px 0px;
+    }
+
+    .kj {
+        padding: 60px;
+    }
+
+    .about_contact .text-end {
+        text-align: center !important;
+    }
+}
+
+@media(max-width:991px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3,
+    h5,
+    label {
+        font-size: 30px;
+    }
+
+    .mt-5 {
+        margin-top: 2rem !important;
+    }
+
+    .cp60 {
+        padding: 50px 30px;
+    }
+
+    .header {
+        background-color: var(--cs-white);
+        padding: 0px 15px;
+    }
+
+    .logo-box {
+        display: none;
+    }
+
+    .responsive_logobox {
+        display: block;
+    }
+
+    .navbar-brand img {
+        max-width: 90%;
+    }
+
+    .nav-item a {
+        color: var(--cs-text);
+        padding: 2px 0px !important;
+    }
+
+    .hero .row {
+        min-height: 55vh;
+    }
+
+    .gen-btn {
+        margin: 20px 0px 30px 0px;
+    }
+
+    .ab_box {
+        padding: 15px;
+    }
+
+    .about_content {
+        padding: 10px 0px;
+        width: auto;
+    }
+
+    .footer .row {
+        padding: 0rem !important;
+        padding-top: 30px !important;
+    }
+
+    .footer_content {
+        margin-bottom: 40px;
+    }
+
+    /* treatment pg */
+    .wd {
+        width: 50%;
+    }
+
+
+    /* about pg */
+    .meet {
+        background-size: 50%;
+    }
+
+    .meet-karolina p {
+        padding: 30px 0px 60px 0px;
+    }
+
+    .kj {
+        padding: 50px;
+    }
+
+    .about_contact .text-end {
+        text-align: center !important;
+    }
+
+    /* contact pg */
+    .contctpg {
+        padding-top: 100px;
+    }
+}
+
+@media(max-width:767px) {
+    .cp60 {
+        padding: 50px 30px;
+    }
+
+    .skindex_content {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* treatment pg */
+    .wd {
+        width: 70%;
+    }
+
+    .skindex_items {
+        margin-top: 30px;
+    }
+
+    /* contact pg */
+    .contctpg {
+        padding-top: 100px;
+    }
+
+}
+
+@media(max-width:575px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3,
+    h5,
+    label {
+        font-size: 24px;
+    }
+
+    .cp60 {
+        padding: 50px 15px;
+    }
+
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    .rimg {
+        width: 49%;
+    }
+
+    .range_image img {
+        margin-bottom: 30px;
+    }
+
+    /* treatment pg */
+    .skindex_content {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .wd {
+        width: auto;
+    }
+
+    .skindex_items {
+        margin-top: 30px;
+    }
+
+    /* about pg */
+    .meet-karolina p {
+        padding: 30px 0px;
+    }
+
+    .kj {
+        padding: 30px;
+    }
+
+    .cta .gen-btn {
+        margin-bottom: 0;
+    }
+
+    /* contact pg */
+    .contctpg {
+        padding-top: 100px;
+    }
+
+    .contact_title {
+        padding-bottom: 40px;
+    }
+
+    .contactpg_link {
+        margin-bottom: 20px;
+    }
+
+    .inpbox {
+        flex-direction: column;
+    }
+
+    .inpitem {
+        width: auto;
+    }
+
+    .cont-info {
+        margin-top: 50px;
+    }
+}

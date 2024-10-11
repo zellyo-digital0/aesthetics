@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Anek Tamil", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --cs-primary: #F5F0EA;
+    --cs-text: #000000;
+    --cs-accent: #4C603D;
+    --cs-darkgrn: rgba(76, 96, 61, 0.2);
+    --cs-greenbg: #4d613d33;
+    --cs-white: #ffffff;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 300;
+    color: var(--cs-white);
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 200;
+    color: var(--cs-text);
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 100;
+    color: var(--cs-text);
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--cs-text);
+}
+
+a {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Courier Prime", monospace;
+    color: var(--cs-accent);
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Courier Prime", monospace;
+    color: var(--cs-text);
+}
+
+h5,
+label {
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 45.06px;
+    color: var(--cs-text);
+}
+
+hr {
+    background-color: var(--cs-accent);
+    height: 1px;
+}
+
+.cp60 {
+    padding: 80px 60px;
+}
+
+.fa-arrow-right {
+    padding-left: 10px;
+}
+
+.gen-btn {
+    transition: .4s all ease-in-out, .4s all ease-in-out;
+    margin-top: 30px;
+}
+
+.gen-btn:hover {
+    color: var(--cs-text);
+    padding-left: 10px;
+}
+
+.gen-btn2:hover {
+    padding-right: 10px;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: #8C8C8C;
+    outline: 0;
+    box-shadow: none;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    box-shadow: none
+}
+
+.contact_content form,
+.kar h4 {
+    margin-top: 50px
+}
+
+.ct_header li a,
+.menu ul li a p,
+.navbar-toggler,
+.trt_head li a {
+    color: var(--cs-text)
+}
+
+.footer_content ul li,
+.social ul li a i {
+    transition: .2s ease-in-out, .2s ease-in-out
+}
+
+.header {
+    padding: 20px 15px;
+    position: fixed;
+    width: 100%;
+    transition: background-color .3s;
+    z-index: 100;
+}
+
+.header.scrolled {
+    background-color: #d6d5c6;
+}
+
+.responsive_logobox {
+    display: none
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 50px
+}
+
+.cur{
+    color: var(--cs-accent)!important;
+}
+
+
+.nav-item a {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Anek Tamil", sans-serif;
+    line-height: 28.16px;
+    color: var(--cs-white)
+}
+
+.contactpg_link a:hover,
+.nav-item a:hover {
+    color: var(--cs-accent)
+}
+
+.navbar-brand img {
+    max-width: 70%;
+    transition: max-width .3s
+}
+
+.header.scrolled .navbar-brand img {
+    max-width: 50%
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    font-size: 26px
+}
+
+.hero {
+    background: url(../images/banner.png) center center/cover no-repeat
+}
+
+.hero .row {
+    min-height: 88vh
+}
+
+.about_box {
+    background-color: var(--cs-greenbg)
+}
+
+.ab_box {
+    padding: 60px
+}
+
+.about_content {
+    padding: 80px 0;
+    width: 83%
+}
+
+.about_content p {
+    padding-left: 50px;
+    padding-top: 20px
+}
+
+.kar h4 {
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+
+.kar h4 hr {
+    width: 80px;
+    margin-right: 20px
+}
+
+.contact,
+.cta,
+.footer {
+    background-color: var(--cs-primary)
+}
+
+.contact_content form input,
+.contact_content form textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #8c8c8c;
+    padding: 10px 10px 10px 0;
+    border-radius: 0;
+    margin-bottom: 20px
+}
+
+.newsletter input,
+form button {
+    background-color: transparent;
+    border: 0
+}
+
+.contact_content form input::placeholder,
+.contact_content form textarea::placeholder {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--cs-text)
+}
+
+form button {
+    font-family: "Courier Prime", monospace;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cs-accent)
+}
+
+.footer_content ul li:hover {
+    padding-left: 5px
+}
+
+.newsletter input {
+    border-bottom: 1px solid #8c8c8c;
+    padding: 10px 10px 10px 0;
+    border-radius: 0;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-top: 20px
+}
+
+.newsletter input::placeholder {
+    font-family: "Courier Prime", monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cs-accent)
+}
+
+.social ul li a i {
+    width: 40px;
+    height: 40px;
+    background-color: #231f20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: var(--cs-white)
+}
+
+.social ul li a i:hover {
+    background-color: var(--cs-accent);
+    margin-top: -8px
+}
+
+.treatments {
+    background: url(../images/treatment-banner.png) center center/cover no-repeat
+}
+
+.aboutpg .row,
+.treatments .row {
+    min-height: 60vh
+}
+
+.skindex_content {
+    width: 60%;
+    margin: auto
+}
+
+.items_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end
+}
+
+.wd {
+    width: 40%;
+    text-align: left
+}
+
+.about-karolina,
+.footer_trt,
+.trt_contact {
+    background-color: var(--cs-darkgrn)
+}
+
+.aboutpg {
+    background: url(../images/about-banner.png) center center/cover no-repeat
+}
+
+.meet {
+    background: url(../images/about-abstract.png) bottom right/20% no-repeat;
+    background-color: var(--cs-primary)
+}
+
+.meet-karolina p {
+    padding-top: 100px;
+    text-align: justify
+}
+
+.kj {
+    padding: 100px
+}
+
+.about_contact,
+.contact_header,
+.footer_about {
+    background-color: var(--cs-white)
+}
+
+.contctpg {
+    padding: 180px 60px 80px;
+    background-color: var(--cs-darkgrn)
+}
+
+.contact_title {
+    padding-bottom: 80px
+}
+
+.contactpg_link {
+    margin-bottom: 30px
+}
+
+.inpbox {
+    display: flex;
+    justify-content: space-between
+}
+
+.inpitem {
+    width: 48%
+}
+
+.contactpg_form form input::placeholder,
+.contactpg_form form textarea::placeholder {
+    color: var(--cs-accent);
+    font-family: "Courier Prime", monospace
+}
